@@ -15,3 +15,6 @@ then
 fi
 
 	echo "The file does not exists.
+	
+	
+	exit 1

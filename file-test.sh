@@ -12,6 +12,8 @@ if
 then
 
 	echo "The file exists!"
+	
+	exit 0
 
 fi
 

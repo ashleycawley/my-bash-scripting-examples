@@ -1,0 +1,11 @@
+function fun1 {
+echo "This is function 1"
+}
+
+function fun2 {
+echo "This is function 2"
+}
+
+function fun3 {
+echo "This is function 3"
+}

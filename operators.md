@@ -9,6 +9,7 @@ If command1 fails (exit code 1) it will move on to command 2 instead.
 This can be used with some interesting logic to replace a basic IF statement, see..
 
 Example:
+
 ping -c 3 google.com || echo "Your connection may be down."
 This will ping Google, if it responds and everything is OK then it is left as that, however if there is no
 response then the ping tool will exit with an exit code of 1 or higher and then it will echo the message.

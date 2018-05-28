@@ -11,3 +11,7 @@ unset EMAIL
 
 # Because the variable has been unset the code below will display nothing
 echo $EMAIL
+
+NAMES=(ash claire ryan emma)
+
+echo ${NAMES[1]}

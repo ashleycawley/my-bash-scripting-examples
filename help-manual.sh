@@ -9,4 +9,5 @@ then
 	## Usage:
 	[`whoami`@`hostname`]# migrate domain.co.uk
 	"
+	exit 0
 fi

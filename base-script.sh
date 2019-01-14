@@ -2,15 +2,17 @@
 
 # Notes
 
-# Header
-echo "##########################################"
-echo "Script Name: $0"
-echo "Bash Version: $BASH_VERSION"
-echo "Author: Ashley Cawley // @ashleycawley"
-echo "##########################################"
-
 # Variables
 
+
 # Functions
+
+# Header
+echo \
+"#####################################
+Script Name: $0
+Bash Version: $BASH_VERSION
+Author: Ashley Cawley // @ashleycawley
+######################################"
 
 # Main Script

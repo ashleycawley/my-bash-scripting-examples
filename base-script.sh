@@ -16,8 +16,8 @@ FULLSCRIPTPATH="`pwd`/$SCRIPTNAME"
 echo \
 "###########################################
 Script: $FULLSCRIPTPATH
-Author: Ashley Cawley // @ashleycawley
 Bash Version: $BASH_VERSION
+Author: Ashley Cawley // @ashleycawley
 ############################################"
 
 # Main Script

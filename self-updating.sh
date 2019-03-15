@@ -11,7 +11,7 @@ FULLSCRIPTPATH="`pwd`/$SCRIPTNAME"
 UPDATE_SOURCE="https://raw.githubusercontent.com/ashleycawley/my-bash-scripting-examples/master/self-updating.sh"
 
 # URL to check to see if update should proceed
-2FA="http://status.ashleycawley.co.uk/update-2fa.txt"
+TWOFA="http://status.ashleycawley.co.uk/update-2fa.txt"
 
 # Scripts current md5sum hash
 MY_MD5=(`md5sum $FULLSCRIPTPATH`)

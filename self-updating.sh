@@ -22,3 +22,12 @@ ONLINE_MD5=(`wget -q -O /tmp/testing.md5 $UPDATE_SOURCE; md5sum /tmp/testing.md5
 # Script
 echo "Script's current md5: $MY_MD5"
 echo "Script's online md5 : $ONLINE_MD5"
+
+echo && echo "Comparison check:" && echo
+
+if [ $MY_MD5 != $ONLINE_MD5 ]
+then
+    echo "MD5's are NOT equal!"
+else
+    echo "MD5's are equal :-)"
+fi
